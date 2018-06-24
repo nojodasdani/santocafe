@@ -1,0 +1,264 @@
+@font-face{
+    font-family: "Myriad-Pro";
+    src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+}
+
+body{
+    font-family: "Myriad-Pro";
+}
+
+body, section, header {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.brand-heading {
+    position: relative;
+    top: 20% !important;
+    font-size: 30px !important;
+}
+
+.nav-link:hover {
+    color: #E86A2B !important;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: black !important;
+    border-radius: 7px !important;
+}
+
+#aboutizq {
+    background-image: url('../img/fondosobresanto.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #616364 !important;
+}
+
+.aboutdivs {
+    padding: 0px;
+    margin: 0px;
+}
+
+.parrafo {
+    font-size: 21px !important;
+}
+
+.menu-section {
+    background-image: url('../img/menu.jpeg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.art-section {
+    background-image: url('../img/cuadros.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 4800px) {
+    #titleabout {
+        font-size: 50px !important;
+        vertical-align: top;
+    }
+
+    #subtitleabout {
+        font-size: 40px !important;
+        vertical-align: top;
+    }
+
+    #titleart {
+        font-size: 80px !important;
+        font-weight: bold;
+        vertical-align: top;
+    }
+
+    #subtitleart {
+        font-size: 55px !important;
+        vertical-align: top;
+    }
+
+    #contenidoArt {
+        /*position: relative;
+        left: 10%;*/
+        font-size: 60px !important;
+        margin: 0;
+    }
+
+    #pplayera {
+        position: relative;
+        top: 20%;
+        margin: 0 auto;
+        color: white !important;
+        font-weight: bold;
+        font-size: 30pt;
+        width: 80%;
+    }
+
+    #pcita, #pevento {
+        color: white !important;
+        text-shadow: 2px 2px #1b1e21;
+        font-size: 45px;
+    }
+
+    .negro {
+        margin: 7px;
+        color: black !important;
+        background-color: white !important;
+        font-size: 50px;
+    }
+
+    #bordenegro {
+        margin: 0 auto;
+        width: 380px;
+        border: 4px solid white;
+    }
+
+    .blanco {
+        color: white !important;
+        text-shadow: 2px 2px #1b1e21;
+        font-size: 50px;
+    }
+
+    #mensaje {
+        margin: 0;
+        position: relative;
+        top: -65%;
+    }
+}
+
+@media (max-width: 1366px) {
+    #pplayera {
+        position: relative;
+        top: 16%;
+        margin: 0 auto;
+        color: white;
+        font-weight: bold;
+        font-size: 16pt;
+        width: 80% !important;
+    }
+
+    #titleart {
+        font-size: 50px !important;
+        font-weight: bold;
+        vertical-align: top;
+    }
+
+    #subtitleart {
+        font-size: 25px !important;
+        vertical-align: top;
+    }
+
+    #contenidoArt {
+        font-size: 30px !important;
+        margin: 0;
+    }
+
+    #pcita {
+        color: white !important;
+        text-shadow: 2px 2px #1b1e21;
+        font-size: 28px;
+    }
+
+    #pevento {
+        color: white !important;
+        text-shadow: 2px 2px #1b1e21;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    #titleabout {
+        font-size: 30px !important;
+        vertical-align: top;
+    }
+
+    #subtitleabout {
+        font-size: 20px !important;
+        vertical-align: top;
+    }
+
+    #titleart {
+        font-size: 60px !important;
+        font-weight: bold;
+        vertical-align: top;
+    }
+
+    #subtitleart {
+        font-size: 35px !important;
+        vertical-align: top;
+    }
+
+    #contenidoArt {
+        /*position: relative;
+        left: 10%;*/
+        font-size: 40px !important;
+        margin: 0;
+    }
+
+    #pplayera {
+        position: relative;
+        top: 2%;
+        margin: 0 auto;
+        color: white;
+        font-weight: bold;
+        font-size: 14pt;
+        width: 80% !important;
+    }
+
+    #pcita {
+        color: white !important;
+        text-shadow: 2px 2px #1b1e21;
+        font-size: 30px;
+    }
+
+    #pevento {
+        color: white !important;
+        text-shadow: 2px 2px #1b1e21;
+        font-size: 27px;
+    }
+
+    .negro {
+        margin: 7px;
+        color: black !important;
+        background-color: white !important;
+        font-size: 40px;
+    }
+
+    #bordenegro {
+        margin: 0 auto;
+        width: 320px;
+        border: 4px solid white;
+    }
+
+    .blanco {
+        color: white !important;
+        text-shadow: 2px 2px #1b1e21;
+        font-size: 40px;
+    }
+
+    #mensaje {
+        margin: 0;
+        position: relative;
+        top: -80%;
+    }
+}
+
+#reserve {
+    background-image: url('../img/reserva.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cita {
+    background-image: url('../img/cita.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pcontacto {
+    color: #E86A2B !important;
+    font-weight: bold;
+    font-size: large;
+}
